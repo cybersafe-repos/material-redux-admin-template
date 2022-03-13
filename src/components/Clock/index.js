@@ -13,7 +13,6 @@ function Clock(props) {
     }, interval)
 
     return () => clearInterval(tick)
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
   return (
